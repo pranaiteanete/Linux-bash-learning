@@ -1,0 +1,8 @@
+echo "Atbilde: jā vai nē (y/n)?"
+read atb
+if [ "$atb" = "y" ] || [ "$atb" = "Y" ];
+then
+  echo "Atbilde ir jā";
+else 
+  echo "Atbilde ir nē";
+fi
