@@ -6,4 +6,4 @@ for (( i=5; i>=1; i--))
 do
 echo "Number: $i" >> "$output_file"
 done
-echo "Done. Results saved to $output_file"
+echo "Done. Results saved to "$output_file"
